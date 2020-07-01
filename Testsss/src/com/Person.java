@@ -1,6 +1,8 @@
 package com;
 
 public class Person {
+	
+	private String sex;
 	private String name;
 	private Integer age;
 	private String addree;
