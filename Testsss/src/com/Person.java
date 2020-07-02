@@ -3,6 +3,12 @@ package com;
 public class Person {
 	
 	private String sex;
+	public String getSex() {
+		return sex;
+	}
+	public void setSex(String sex) {
+		this.sex = sex;
+	}
 	private String name;
 	private Integer age;
 	private String addree;
